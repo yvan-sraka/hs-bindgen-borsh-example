@@ -16,7 +16,7 @@
 
 {-# OPTIONS_GHC -Wno-unused-imports #-}
 
-module Greetings (hello, greetings, send_arr) where
+module BestPet (best_pet) where
 
 import Data.Int
 import Data.Word
@@ -24,6 +24,4 @@ import Foreign.C.String
 import Foreign.C.Types
 import Foreign.Ptr
 
-foreign import ccall safe "__c_hello" hello :: CString -> IO (())
-foreign import ccall safe "__c_greetings" greetings :: IO (Ptr (CUChar))
-foreign import ccall safe "__c_send_arr" send_arr :: IO (Ptr (CUChar))
+foreign import ccall safe "__c_best_pet" best_pet :: IO (Ptr (CUChar))

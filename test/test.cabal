@@ -29,13 +29,13 @@ version:            0.1.0.0
 -- description:
 
 -- The license under which the package is released.
-license:            NONE
+license:            MIT
 
 -- The package author(s).
-author:             ThisKappaIsGrey
+author:             Yvan Sraka
 
 -- An email address to which users can send suggestions, bug reports, and patches.
-maintainer:         thanatechaumnuaiwit@gmail.com
+maintainer:         yvan@sraka.xyz
 
 -- A copyright notice.
 -- copyright:
@@ -65,7 +65,7 @@ executable test
 
     -- Other library packages from which modules are imported.
     build-depends:    base ^>=4.17.2.1,
-    		      greetings,
+                      best-pet,
                       bytestring,
                       generics-sop,
                       borsh

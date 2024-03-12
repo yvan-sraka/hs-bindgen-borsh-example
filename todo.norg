@@ -1,3 +1,0 @@
-* Things that I want to investigate with this
-  - ( ) How the Haskell / Rust FFI works when you need to send over structs / enums 
-  - ( ) How the https://borsh.io/ spec works and how to unencode it
